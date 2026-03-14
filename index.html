@@ -19,17 +19,19 @@
   h1 {
     font-size: 10vmin;
     display: grid;
+    font-weight: normal;
   }
-  h1 > ins {
+  [fore] {
   	grid-area: 1/1;
   }
-  h1 > del {
+  [back] {
     opacity: .5;
   	grid-area: 1/1;
   }
   h2 {
     font-size: 5vmin;
+    font-weight: normal;
   }
 </style>
-<h1><del>shik!me</del><ins>shik.me</ins></h1>
+<h1><span fore>shik!me</span><span back>shik.me</span></h1>
 <h2>The best for the Best</h2>
