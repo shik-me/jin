@@ -42,15 +42,16 @@
     background-clip: text;
     color: transparent;
   }
-  h1:after {
-    content: '';
+  h1:before {
+    content: '!';
     width: 3vmin;
     height: 7vmin;
-    background: oklch(0.2 0.05 320);
     position: absolute;
-    right: 14vmin;
-    top: 1vmin;
+    right: 13.6vmin;
+    top: 0vmin;
     opacity: .5;
+    z-index: -1;
+    color: gold;
   }
   h2 {
     font-size: 5vmin;
