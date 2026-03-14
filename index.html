@@ -27,7 +27,8 @@
     font-size: 10vmin;
     font-weight: normal;
     position: relative;
-    margin: 5vmin;
+    margin: 0vmin;
+    padding: 5vmin;
   }
   [golden] {
     background: linear-gradient( 135deg, 
@@ -49,16 +50,22 @@
     font-size: 5vmin;
     font-weight: normal;
     font-style: italic;
-    margin: 5vmin;
+    margin: 0vmin;
     opacity: .75;
     text-align: center;
   }
   aside {
-    color: oklch(0.3 0 0)
+    color: oklch(0.3 0 0);
+    position: absolute;
+    bottom: 0;
   }
   a {
     color: unset;
     text-underline-offset: 0.67vmin;
+    padding: 5vmin;
+  }
+  a:hover {
+    color: gold;
   }
 </style>
 <h1 golden>Jin</h1>
