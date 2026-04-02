@@ -11,11 +11,17 @@
 <meta name="description" content="загадать желание" />
 
 <style>
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+  }
   :root {
     font-family: Georgia, 'serif';
     font-variant-numeric: lining-nums;
     color: gold;
     background: black;
+    animation: fade-in ease-out 1s;
   }
   body {
     margin: 0;
